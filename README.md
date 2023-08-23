@@ -1,1 +1,2 @@
 # Public Transport System
+This is coding for DBKK public transport that involves creating software solutions to manage and optimize various aspects of transportation systems. This includes designing applications for rider, card, and station informations. It requires programming skills in Ruby as well as expertise in data analysis. The goal is to enhance efficiency, reduce congestion, and improve the overall experience for passengers using public transportaion services.
