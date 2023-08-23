@@ -28,12 +28,9 @@ class Card
 		@balance += amount
 	end
 
+	def deduct_fare(amount)
+		@balance -= amount
+		puts "Your card balance is: RM#{card.balance}"
+	end
 end
 
-card = Card.new("student", "12345")
-puts card.card_type
-puts card.card_siri_num
-puts card.balance
-puts card.expired?
-puts card.top_up(10)
-puts "New balance: #{card.balance}"
