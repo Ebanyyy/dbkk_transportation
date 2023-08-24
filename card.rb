@@ -1,9 +1,9 @@
 class Card
 	attr_reader :balance #different way to def
 
-	def initialize (card_type, card_siri_num)
+	def initialize (card_type)
 		@card_type = card_type 
-		@card_siri_num = card_siri_num
+		#@card_siri_num = card_siri_num
 		@expired = false
 		@balance = 0
 	end
